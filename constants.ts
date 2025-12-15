@@ -128,9 +128,9 @@ export const PORTFOLIO_PROJECTS: ProjectItem[] = [
     id: "p5",
     title: "Crypto Security Product Design",
     description: "Designed a tangible Seed Phrase Storage Plate for cryptocurrency security. Focused on industrial design principles to ensure durability, legibility, and user-friendly archiving.",
-    imageUrl: "https://picsum.photos/600/400?random=5",
+    imageUrl: "https://shoplineimg.com/60ec091b845d2e00165a381f/63048f3ffa8ea00025d86b21/800x.webp?source_format=jpg",
     tags: ["Web3", "Design"],
-    link: "#"
+    link: "https://store.trend.hk/products/huntcoins-seed-phrase-storage-plate"
   },
   {
     id: "p6",
