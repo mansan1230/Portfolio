@@ -110,8 +110,8 @@ export const PORTFOLIO_PROJECTS: ProjectItem[] = [
   },
   {
     id: "p3",
-    title: "Editorial Design: New Asia Life Monthly",
-    description: "Managed the end-to-end production of 12 consecutive issues. Handled Adobe InDesign layout, coordinated content with writers, and enforced a zero-error standard for final print production.",
+    title: "tsety",
+    description: "12314221414oordinated content with writers, and enforced a zero-error standard for final print production.",
     imageUrl: "https://picsum.photos/600/400?random=3",
     tags: ["Design", "Content"],
     link: "#"
