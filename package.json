@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "start": "serve",
-    "build": "echo 'No build required for static mode'"
+    "build": "mkdir -p dist && cp index.html index.tsx dist/"
   },
   "dependencies": {},
   "devDependencies": {}
