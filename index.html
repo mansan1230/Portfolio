@@ -49,9 +49,9 @@
     </script>
 
     <!-- React & Libraries (UMD Globals) -->
-    <!-- We explicitly load the Router dependencies to ensure the global ReactRouterDOM is available -->
     <script crossorigin src="https://unpkg.com/react@18.2.0/umd/react.production.min.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@18.2.0/umd/react-dom.production.min.js"></script>
+    <!-- React Router Dependencies -->
     <script crossorigin src="https://unpkg.com/history@5/umd/history.production.min.js"></script>
     <script crossorigin src="https://unpkg.com/react-router@6.22.0/dist/umd/react-router.production.min.js"></script>
     <script crossorigin src="https://unpkg.com/react-router-dom@6.22.0/dist/umd/react-router-dom.production.min.js"></script>
@@ -91,6 +91,7 @@
     <div id="root"></div>
     
     <!-- Main Application Script -->
+    <!-- We load index.tsx with babel type so it compiles in browser -->
     <script type="text/babel" src="./index.tsx" data-presets="react,typescript"></script>
   </body>
 </html>
