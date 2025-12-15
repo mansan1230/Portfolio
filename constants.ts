@@ -88,7 +88,18 @@ export const CV_JSON: CVData = {
       items: ["Professional Certificate: Digital Marketing and E-commerce Website Design"]
     }
   ],
-  education: []
+  education: [
+    {
+      institution: "Hong Kong Polytechnic University",
+      degree: "Bachelor of Tourism Management",
+      period: "2017 - 2019"
+    },
+    {
+      institution: "University of Hong Kong School of Professional and Continuing Education",
+      degree: "Higher Diploma in Tourism and Event Management",
+      period: "2015 - 2017"
+    }
+  ]
 };
 
 export const PORTFOLIO_PROJECTS: ProjectItem[] = [
