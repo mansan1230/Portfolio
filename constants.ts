@@ -102,11 +102,11 @@ export const PORTFOLIO_PROJECTS: ProjectItem[] = [
   },
   {
     id: "p2",
-    title: "Backtotheeth NFT Project",
+    title: "BackToTheEth NFT Project",
     description: "Led the creative direction for NFT asset design and spearheaded the Twitter promotional roadmap. Successfully aligned visual identity with market trends to maximize project visibility.",
-    imageUrl: "https://picsum.photos/600/400?random=2",
+    imageUrl: "https://pbs.twimg.com/profile_banners/1668259621868273667/1686750740/1500x500",
     tags: ["Web3", "Design", "Marketing"],
-    link: "#"
+    link: "https://x.com/BackToTheEth"
   },
   {
     id: "p3",
