@@ -24,7 +24,7 @@ export const CV_JSON: CVData = {
     },
     {
       id: "work-1",
-      role: "Shop Owner",
+      role: "Self Employed",
       company: "Proteinmon",
       period: "March 2023 - October 2025",
       type: "general",
@@ -96,9 +96,9 @@ export const PORTFOLIO_PROJECTS: ProjectItem[] = [
     id: "p1",
     title: "Web3 Community Architecture",
     description: "Executed comprehensive marketing strategies across Twitter, Telegram, and Discord. Managed partnerships with over 200 NFT projects, hosted community AMAs, and orchestrated viral giveaway campaigns to drive user acquisition.",
-    imageUrl: "https://picsum.photos/600/400?random=1",
+    imageUrl: "https://raw2.seadn.io/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/3e3a7335aaef2543fea12f738e7217/643e3a7335aaef2543fea12f738e7217.mp4",
     tags: ["Web3", "Community", "Marketing"],
-    link: "#"
+    link: "https://x.com/HuntCoins_"
   },
   {
     id: "p2",
@@ -120,9 +120,9 @@ export const PORTFOLIO_PROJECTS: ProjectItem[] = [
     id: "p4",
     title: "Fitness Brand Scaling (@fitwbosco__fitness)",
     description: "Grew a fitness Instagram brand from scratch to 30K+ followers in two years. Developed high-engagement content strategies and consistent visual storytelling.",
-    imageUrl: "https://picsum.photos/600/400?random=4",
+    imageUrl: "https://cdn-icons-png.flaticon.com/512/2843/2843664.png",
     tags: ["Marketing", "Content"],
-    link: "#"
+    link: "https://www.instagram.com/fitwbosco__fitness/"
   },
   {
     id: "p5",
@@ -144,8 +144,8 @@ export const PORTFOLIO_PROJECTS: ProjectItem[] = [
     id: "p7",
     title: "Health E-Commerce & Web Design",
     description: "Designed and promoted a health-focused website integrating knowledge sharing with e-commerce. Optimized UI/UX to convert educational readers into product customers.",
-    imageUrl: "https://picsum.photos/600/400?random=7",
+    imageUrl: "https://www.proteinmonhk.com/cdn/shop/files/1_copy_4ffbd755-39c5-4737-ab08-e10b94737c92.png?v=1688582640",
     tags: ["Design", "Marketing"],
-    link: "#"
+    link: "https://www.proteinmonhk.com/blogs/all"
   }
 ];
