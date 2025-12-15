@@ -1,11 +1,11 @@
 import React from 'react';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from './components/Navbar.tsx';
-import Hero from './components/Hero.tsx';
-import Experience from './components/Experience.tsx';
-import Skills from './components/Skills.tsx';
-import Portfolio from './components/Portfolio.tsx';
-import { CV_JSON, PORTFOLIO_PROJECTS } from './constants.ts';
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import Experience from './components/Experience';
+import Skills from './components/Skills';
+import Portfolio from './components/Portfolio';
+import { CV_JSON, PORTFOLIO_PROJECTS } from './constants';
 
 const ResumePage: React.FC = () => {
   const web3Experience = CV_JSON.experience.filter(e => e.type === 'web3');
