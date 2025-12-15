@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Emily Tang | Web3 Content Specialist</title>
     
-    <!-- Tailwind CSS -->
+    <!-- Tailwind CSS (CDN) -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
       tailwind.config = {
@@ -51,6 +51,7 @@
     <!-- React & Libraries (UMD Globals) -->
     <script crossorigin src="https://unpkg.com/react@18.2.0/umd/react.production.min.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@18.2.0/umd/react-dom.production.min.js"></script>
+    
     <!-- React Router Dependencies -->
     <script crossorigin src="https://unpkg.com/history@5/umd/history.production.min.js"></script>
     <script crossorigin src="https://unpkg.com/react-router@6.22.0/dist/umd/react-router.production.min.js"></script>
@@ -91,7 +92,7 @@
     <div id="root"></div>
     
     <!-- Main Application Script -->
-    <!-- We load index.tsx with babel type so it compiles in browser -->
+    <!-- Note: We use type="text/babel" so the browser compiles JSX/TSX on the fly -->
     <script type="text/babel" src="./index.tsx" data-presets="react,typescript"></script>
   </body>
 </html>
