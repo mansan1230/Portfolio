@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Experience from './components/Experience';
 import Skills from './components/Skills';
+import Education from './components/Education';
 import Portfolio from './components/Portfolio';
 import { CV_JSON, PORTFOLIO_PROJECTS } from './constants';
 
@@ -17,6 +18,7 @@ const ResumePage: React.FC = () => {
       <Experience title="Web3 Experience" items={web3Experience} />
       <Experience title="Work Experience" items={otherExperience} />
       <Skills skills={CV_JSON.skills} />
+      <Education items={CV_JSON.education} />
     </>
   );
 };
