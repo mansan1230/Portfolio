@@ -96,7 +96,7 @@ export const PORTFOLIO_PROJECTS: ProjectItem[] = [
     id: "p1",
     title: "Web3 Community Architecture",
     description: "Executed comprehensive marketing strategies across Twitter, Telegram, and Discord. Managed partnerships with over 200 NFT projects, hosted community AMAs, and orchestrated viral giveaway campaigns to drive user acquisition.",
-    imageUrl: "https://raw2.seadn.io/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/3e3a7335aaef2543fea12f738e7217/643e3a7335aaef2543fea12f738e7217.mp4",
+    imageUrl: "https://opensea.io/item/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/38436400942264038574408664307576818040782004865936606820103211572618472718669/opengraph-image?ts=29421452",
     tags: ["Web3", "Community", "Marketing"],
     link: "https://x.com/HuntCoins_"
   },
